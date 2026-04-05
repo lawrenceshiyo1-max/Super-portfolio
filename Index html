@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Karibu kwenye Website ya Super!</h1>
+        <p>Hii ni website yangu ya kwanza live.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Nina passion ya website development, coding, na tech.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Project 1: Simple Portfolio</li>
+            <li>Project 2: Music Site</li>
+            <li>Project 3: Flyer Design Showcase</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Jina lako" required>
+            <input type="email" placeholder="Email yako" required>
+            <textarea placeholder="Message yako" required></textarea>
+            <button type="submit">Tuma</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Super | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
